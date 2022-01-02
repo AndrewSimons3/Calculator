@@ -106,6 +106,7 @@ body {
   align-items: center;
   height: 60px;
   width: 90px;
+  box-shadow: 0px 4px 0px 0px hsl(28, 16%, 65%);
 }
 
 .row a {
@@ -127,8 +128,9 @@ body {
 }
 
 .delete {
-  background-color:hsl(222, 26%, 31%);
+  background-color:hsl(225, 21%, 49%);
   font-size: 18px;
+  box-shadow: 0px 4px 0px 0px hsl(224, 28%, 35%);
 }
 
 .delete a {
@@ -136,8 +138,9 @@ body {
 }
 
 .reset{
-  background-color:hsl(222, 26%, 31%);
+  background-color:hsl(225, 21%, 49%);
   font-size: 18px;
+  box-shadow: 0px 4px 0px 0px hsl(224, 28%, 35%);
 }
 
 .reset a {
@@ -146,6 +149,7 @@ body {
 
 .equal{
   background-color:hsl(6, 63%, 50%);
+  box-shadow: 0px 4px 0px 0px hsl(6, 70%, 34%);
 }
 
 .equal a {
