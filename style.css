@@ -19,23 +19,23 @@ body {
 
 .calculator-container {
 	width: 500px;
-	margin: 7.5rem 0;
+	margin: 2.5rem 0;
 }
 
 .header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: center;
+	align-items: baseline;
   color: #fff;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .theme-container {
 	text-transform: uppercase;
 	display: flex;
 	align-items: flex-end;
-	width: 150px;
+	width: 130px;
 	justify-content: space-between;
   letter-spacing: 2px;
 }
@@ -58,4 +58,70 @@ body {
   background-color: hsl(223, 31%, 20%);
   border-radius: 20px;
   height: 20px;
+}
+
+.output-container {
+  height: 100px;
+  background-color: hsl(224, 36%, 15%);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.output {
+  color: #fff;
+}
+
+.keypad {
+  background-color: hsl(223, 31%, 20%);
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+.keypad span {
+  
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.key-box {
+  background-color: hsl(30, 25%, 89%);
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 90px;
+}
+
+.row a {
+  text-decoration: none;
+  color:hsl(221, 14%, 31%);
+}
+
+.row span {
+  height: 50px;
+  width: 50px;
+}
+
+.reset {
+  width: 42.5%;
+}
+
+.equal {
+  width: 42.5%;
 }
