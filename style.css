@@ -125,3 +125,27 @@ body {
 .equal {
   width: 42.5%;
 }
+
+.delete {
+  background-color:hsl(222, 26%, 31%);
+}
+
+.delete a {
+  color:hsl(30, 25%, 89%);
+}
+
+.reset{
+  background-color:hsl(222, 26%, 31%);
+}
+
+.reset a {
+  color:hsl(30, 25%, 89%);
+}
+
+.equal{
+  background-color:hsl(6, 63%, 50%);
+}
+
+.equal a {
+  color:hsl(30, 25%, 89%);
+}
