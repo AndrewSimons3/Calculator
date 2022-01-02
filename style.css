@@ -155,3 +155,20 @@ body {
 .equal a {
   color:hsl(30, 25%, 89%);
 }
+
+@media (max-width: 550px) {
+  .container-calculator {
+    margin: 7.5rem 2rem;
+  }
+  .row .key-box {
+    width: 50px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .row-5 .key-box {
+    width: 38%;
+  }
+
+  
+}
