@@ -157,7 +157,7 @@ body {
 }
 
 @media (max-width: 550px) {
-  .container-calculator {
+  .calculator-container {
     margin: 7.5rem 2rem;
   }
   .row .key-box {
